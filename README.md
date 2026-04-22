@@ -37,8 +37,19 @@ As requested by the editor, my review below focuses on the code associated with 
 -   The documentation is detailed but may overwhelm beginners. Simpler instructions or tutorials would help
 -   Some steps, like phylogenetic quality control, take a lot of time and computer power, which may be hard for some users.
 
-### Concerns:
-Although the GitHub repository includes installation instructions and a list of required dependencies, the setup process may still be challenging due to the need to install multiple external tools.
+## Lower-level suggestions (Specific):
+
+-   The installation process requires multiple dependencies and environment setup steps, but a simplified installation guide or automated setup script would improve usability.
+-   Setting up an NCBI API key is needed, but this step is not always clear and may be confusing for those new to the process.
+-   The pipeline relies on executing multiple scripts manually, and clearer guidance on execution order would improve user experience.
+-   Some scripts do not have many comments, which can make it harder for users to follow what certain parts of the code are for.
+-   Error handling is limited, so if one API request does not work, the pipeline may stop, as mentioned in the README.md file.
+-   It expects users to know Unix systems (mentioned in the README.md file) and does not offer help for Windows, which can make it less accessible.
+-   Some steps, specially making phylogenetic trees, can take a long time, which may be difficult for users with fewer computing resources.
+-   Although tutorials are available, having a small example or sample dataset could make it easier for users to try out and understand the pipeline.
+-   Using both R and bash scripts makes the pipeline flexible, but it can be harder for users who are not familiar with both.
+  
+
 
 
  
