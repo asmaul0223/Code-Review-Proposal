@@ -27,6 +27,16 @@ In this paper the authors Collins et al (2021) introduce Meta-Fish-Lib, which is
 They tested their tool on UK fish and added new DNA data to fill missing gaps. As a result, they improved how many species can be correctly identified, especially using a key DNA marker (12S). The pipeline integrates multiple bioinformatics tools and includes steps for phylogenetic quality control and reporting.
 As requested by the editor, my review below focuses on the code associated with this manuscript.
 
+## High-level suggestions
+
+-   Meta-Fish-Lib helps build DNA reference libraries with a clear workflow, making research results more reproducible.
+-   Using version control and DOIs makes it easy to track and cite results over time.
+-   However, the overall usability of the pipeline is limited by a complex setup process that requires installation of multiple external tools (R, HMMER, MAFFT, RAxML).
+-   The pipeline is not fully automatic. Users need to manually check phylogenetic trees and edit exclusion lists.
+-   The workflow involves running multiple scripts in a specific order. There isn't a single command that runs everything, which could confuse beginners.
+-   The documentation is detailed but may overwhelm beginners. Simpler instructions or tutorials would help
+-   Some steps, like phylogenetic quality control, take a lot of time and computer power, which may be hard for some users.
+
 ### Concerns:
 Although the GitHub repository includes installation instructions and a list of required dependencies, the setup process may still be challenging due to the need to install multiple external tools.
 
