@@ -23,9 +23,10 @@ I chose this article because the concept is related to my current research (Fish
 
 ## Summary
 
-In this paper the authors Collins et al (2021) introduce Meta-Fish-Lib, which is a pipeline designed to generate curated DNA reference libraries for fish metabarcoding studies. This pipeline automatically gathers fish DNA data through the process of downloading, filtering, annotating, and quality-controlling sequence data from public repositories such as NCBI and BOLD. It also supports multiple genetic markers and provides tools for updating and versioning datasets.
-They tested their tool on UK fish and added new DNA data to fill missing gaps. As a result, they improved how many species can be correctly identified, especially using a key DNA marker (12S). The pipeline integrates multiple bioinformatics tools and includes steps for phylogenetic quality control and reporting.
-As requested by the editor, my review below focuses on the code associated with this manuscript.
+In this paper, Collins et al. (2021) introduce Meta-Fish-Lib, a pipeline for generating curated DNA reference libraries for fish metabarcoding studies. The pipeline streamlines the process by automatically downloading, filtering, annotating, and quality-controlling sequence data from public repositories such as NCBI and BOLD. Additionally, it supports multiple genetic markers and provides tools for dataset updating and versioning.
+
+The authors tested Meta-Fish-Lib on UK fish and added new DNA data to address taxonomic gaps. As a result, they increased the number of species that could be accurately identified, particularly using a key DNA marker (MiFish-12S, a segment of mitochondrial DNA commonly used to distinguish fish species). Furthermore, the pipeline integrates multiple bioinformatics tools and includes steps for phylogenetic quality control and comprehensive reporting.
+
 
 ## High-level suggestions
 
