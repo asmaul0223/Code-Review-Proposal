@@ -48,7 +48,10 @@ As requested by the editor, my review below focuses on the code associated with 
 -   Some steps, specially making phylogenetic trees, can take a long time, which may be difficult for users with fewer computing resources.
 -   Although tutorials are available, having a small example or sample dataset could make it easier for users to try out and understand the pipeline.
 -   Using both R and bash scripts makes the pipeline flexible, but it can be harder for users who are not familiar with both.
-  
+
+## Conclusion
+
+The Meta-Fish-Lib pipeline is a well-designed tool for DNA metabarcoding. It utilizes version control, modular structure, and public databases, which are strong points. The setup is complex, and some steps are manually done. Easier instructions and more automation would make it more accessible to a broader range of users.  
 
 
 
